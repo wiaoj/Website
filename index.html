@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="./assets/images/favicon.ico"
+      type="image/x-icon"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./css/style.min.css" />
+    <title>Bertan Tokgöz</title>
+    <meta name="description" content="More details for Bertan Tokgöz" />
+    <meta name="keywords" content="bertan,tokgöz,bertan tokgöz" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a href="#">
+          <!-- <img src="assets/images/header.jpg" alt="" /> -->
+          <i class="fa-solid fa-code"></i>
+        </a>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#interest">Interest</a></li>
+        </ul>
+      </nav>
+      <section>
+        <h1>
+          Bertan <span class="last_name">Tokgöz</span>
+          <br />
+          <span
+            class="typewrite"
+            data-period="2000"
+            data-type='["Developer","Designer","Freelancer"]'
+          ></span>
+        </h1>
+      </section>
+      <p class="title text-center">
+        <span class="title-content">Hello</span>
+        <span class="title-content title-second">
+          welcome to my personal website
+        </span>
+        <span class="title-content title-third">
+          where you can visit and learn about me
+        </span>
+        <span class="title-content title-fourth">
+          you can also contact me if yo wish
+        </span>
+      </p>
+    </header>
+    <main>
+      <section id="about">
+        <h2>About</h2>
+        <details title="about">
+          <summary>Details</summary>
+          <article>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis,
+            facere.
+          </article>
+        </details>
+      </section>
+      <section id="experience">
+        <h2>Experience</h2>
+        <article>
+          <details>
+            <summary>WEB DESIGN INTERN</summary>
+            <h3>SHOUT! MEDIA PRODUCTIONS</h3>
+            <p>
+              Collaboratively administrate empowered markets via plug-and-play
+              networks. Dynamically procrastinate B2C users after installed base
+              benefits. Dramatically visualize customer directed convergence
+              without revolutionary ROI.
+            </p>
+          </details>
+          <details>
+            <summary>JUNIOR WEB DESIGNER</summary>
+            <h3>SHOUT! MEDIA PRODUCTIONS</h3>
+            <p>
+              Podcasting operational change management inside of workflows to
+              establish a framework. Taking seamless key performance indicators
+              offline to maximise the long tail. Keeping your eye on the ball
+              while performing a deep dive on the start-up mentality to derive
+              convergence on cross-platform integration.
+            </p>
+          </details>
+          <details>
+            <summary>WEB DEVELOPER</summary>
+            <h3>INTELITEC SOLUTIONS</h3>
+            <p>
+              Capitalize on low hanging fruit to identify a ballpark value added
+              activity to beta test. Override the digital divide with additional
+              clickthroughs from DevOps. Nanotechnology immersion along the
+              information highway will close the loop on focusing solely on the
+              bottom line.
+            </p>
+          </details>
+        </article>
+      </section>
+      <section id="education">
+        <h2>Education</h2>
+        <details>
+          <summary>PAMUKKALE UNIVERSITY</summary>
+          <h3>ENGINEERING FACULTY</h3>
+          <p>
+            Mechanical Engineering
+            <br />
+            <strong>Gpa: 3.12</strong>
+          </p>
+        </details>
+      </section>
+      <section id="skills">
+        <h2>Skills</h2>
+        <div class="icons">
+          <i class="fa-brands fa-html5"></i>
+          <i class="fa-brands fa-css3-alt"></i>
+          <i class="fa-brands fa-sass"></i>
+          <i class="fa-brands fa-js-square"></i>
+          <i class="fa-brands fa-angular"></i>
+          <i>C#</i>
+          <i class="fa-brands fa-java"></i>
+        </div>
+      </section>
+      <section id="interest">
+        <h2>Interest</h2>
+        <details>
+          <summary>More</summary>
+          <h3></h3>
+          <p>
+            Apart from being a web developer, I enjoy most of my time being
+            outdoors.
+          </p>
+          <p>
+            When forced indoors, I follow a number of sci-fi and fantasy genre
+            movies and television shows, I spend a large amount of my free time
+            exploring the latest technology advancements in the front-end web
+            and back-end development world.
+          </p>
+        </details>
+      </section>
+    </main>
+    <footer>
+      <div class="social-media">
+        <a target="_blank" href="https://github.com/wiaoj" class="button">
+          <i class="fa-brands fa-github"></i>
+        </a>
+        <a class="button" href="mailto:bertandeniz7@gmail.com"
+          ><i class="fa-solid fa-envelope"></i>
+        </a>
+        <a
+          target="_blank"
+          href="https://www.linkedin.com/in/bertan-tokgoz-5454a3235"
+          class="button"
+        >
+          <i class="fa-brands fa-linkedin"></i>
+        </a>
+      </div>
+      <h6 class="author text-center">
+        &copy <time id="footer_year"></time>
+        Bertan Tokgöz
+        <script>
+          var timeDisplay = document.getElementById("footer_year");
+  
+          let time = new Date();
+          timeDisplay.innerHTML = time.getFullYear();
+        </script>
+      </h6>
+    </footer>
+    <script src="js/type-writer.js"></script>
+  </body>
+</html>

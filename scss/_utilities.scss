@@ -1,0 +1,39 @@
+$pixel: 16px;
+$gradient-color-1: #833ab4;
+$gradient-color-2: #fd1d1d;
+$gradient-color-3: #fcb045;
+$white: var(--white);
+$black: var(--black);
+$primary-color: var(--primary-color);
+$secondary-color: var(--secondary-color);
+$third-color: var(--third-color);
+$fourth-color: var(--fourth-color);
+
+.animated-text {
+  background: linear-gradient(
+    to bottom right,
+    $gradient-color-1,
+    $gradient-color-2,
+    $gradient-color-3
+  );
+  background-size: 400% 400%;
+  animation: animate-text 10s infinite ease-in-out;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+@keyframes animate-text {
+  0% {
+    background-position: 0 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0 50%;
+  }
+}
+
+a {
+  text-decoration: none;
+}
